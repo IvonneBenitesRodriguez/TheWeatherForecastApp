@@ -1,3 +1,72 @@
 body{
     background: linear-gradient(110.5deg, rgba(248, 196, 249, 0.66) 22.8%, rgba(253, 122, 4, 0.15) 64.6%);
+    font-family: monospace;
 }
+
+h1{
+    color:#575151;
+    display: block;
+    font-size: 24px;
+    font-weight: 100;
+    line-height: 28px;
+    margin-bottom:0;
+}
+ul{
+    margin:0;
+    padding:0;
+}
+li{
+    margin:0;
+    padding:0;
+    color:#575151;
+    font-size: 16px;
+    font-weight: 100;
+    line-height: 19px;
+    list-style: none;
+    
+}
+li::first-letter{
+    text-transform: capitalize;
+}
+.lavanda-weather-app{
+    padding: 40px;
+    border: 1px solid #f70776;
+    border-radius: 5px;
+}
+.lavanda-weather-app-wrapper{
+    max-width: 600px;
+    margin: 30px auto;
+}
+.overview{
+    margin-bottom: 20px;
+}
+.weather-temperature img{
+    margin-right: 5px;
+    height: 64px;
+    width: 64px;
+}
+.weather-temperature strong{
+    color:#575151;
+    font-size: 64px;
+    font-weight: 400;
+    line-height:1;
+}
+.weather-temperature .units{
+    position: relative;
+    font-size: 16px;
+    top: -34px;
+}
+.weather-temperature .active{
+    color:#575151;
+    cursor: default;
+}
+.weather-temperature .active:hover{
+    text-decoration: none;
+}
+
+
+
+
+
+
+
