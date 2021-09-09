@@ -1,5 +1,5 @@
 body{
-    background: linear-gradient(110.5deg, rgba(248, 196, 249, 0.66) 22.8%, rgba(253, 122, 4, 0.15) 64.6%);
+    background: radial-gradient(290px at 8.6% 46.4%, rgb(255, 148, 148) 7.8%, rgb(255, 223, 155) 32.2%, rgb(255, 247, 177) 48.1%, rgb(216, 255, 177) 61%, rgb(177, 255, 253) 75.3%);
     font-family: monospace;
 }
 
@@ -63,9 +63,20 @@ li::first-letter{
 .weather-temperature .active:hover{
     text-decoration: none;
 }
-
-
-
+.weather-forecast{
+    margin-top:20px;
+    text-align: center;
+}
+.weather-forecast-date{
+    font-size: 16px;
+    opacity: 0.5;
+}
+.weather-forecast-temperatures{
+    font-size: 13px;
+}
+.weather-forecast-temperature-min{
+    opacity: 0.5;
+}
 
 
 
